@@ -178,7 +178,7 @@ open class FPNTextField: UITextField, FPNCountryPickerDelegate, FPNDelegate {
 
 	@objc private func displayCountryKeyboard() {
 		inputView = countryPicker
-		inputAccessoryView = getToolBar(with: getCountryListBarButtonItems())
+    /*  inputAccessoryView = getToolBar(with: getCountryListBarButtonItems())*/
 		tintColor = .clear
 		reloadInputViews()
 		becomeFirstResponder()
